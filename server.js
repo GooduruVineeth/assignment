@@ -27,7 +27,7 @@ app.use("/api/trade", routes);
 
 // connecting to MongoDB server
 mongoose
-  .connect("mongodb://localhost:27017/smallcasedb", {
+.connect("mongodb+srv://root:9663639359@cluster0.x35j1.mongodb.net/smallcasedb?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,
