@@ -1,4 +1,4 @@
-const trade = require("../model/Trade");
+const trade = require("../model/trade");
 const Joi = require("joi");
 
 exports.getTrades = async (req, res) => {
